@@ -2,6 +2,7 @@
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+/* Colors */
 body {
   font-size: 100%;
   font-family: "Open Sans", sans-serif; }
@@ -205,5 +206,36 @@ input[type="button"]:hover,
     color: #fff; }
   #realisatie-uh a:hover {
     color: orange; }
+
+/* Menu */
+#region-branding .logo-img {
+  position: absolute;
+  left: 50%;
+  width: inherit;
+  z-index: 996;
+  top: 0px; }
+  #region-branding .logo-img img {
+    position: relative;
+    left: -50%;
+    width: 163px; }
+
+.block-superfish-1 {
+  margin-top: 73px; }
+
+#block-superfish-1 ul#superfish-1 li:nth-child(5), #block-superfish-1 ul#superfish-1 li:nth-child(6) {
+  float: right; }
+
+#block-superfish-1 ul#superfish-1 li:nth-child(5) {
+  margin-right: 30px; }
+
+#block-superfish-1 ul#superfish-1 li {
+  padding: 0;
+  text-align: center; }
+  #block-superfish-1 ul#superfish-1 li a {
+    border-bottom: 3px solid #009ee3;
+    margin: 0 15px; }
+
+#block-superfish-1 ul#superfish-1 li.first a {
+  margin-left: 0 !important; }
 
 /*# sourceMappingURL=global.css.map */

@@ -5,3 +5,45 @@
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 @import 'variables';
 @import 'default-style';
+
+/* Menu */
+#region-branding {
+  .logo-img {
+    position:absolute;
+    left:50%;
+    width:inherit;
+    z-index:996;
+    top:0px;
+    img {
+      position:relative;
+      left:-50%;
+      width:163px;
+    }
+  }
+}
+
+.block-superfish-1 {
+  margin-top:73px;
+}
+#block-superfish-1 ul#superfish-1 li:nth-child(5), #block-superfish-1 ul#superfish-1 li:nth-child(6) {
+  float: right;
+}
+
+#block-superfish-1 ul#superfish-1 li:nth-child(5) {
+  margin-right:30px;
+}
+
+#block-superfish-1 ul#superfish-1 li {
+  padding: 0;
+  text-align: center;
+  a {
+    border-bottom:3px solid $blue;
+    margin: 0 15px;
+  }
+}
+
+#block-superfish-1 ul#superfish-1 li.first {
+  a {
+    margin-left:0!important;
+  }
+}
